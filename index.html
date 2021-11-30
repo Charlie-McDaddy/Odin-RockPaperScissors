@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Odin--RockPaperScissors</title>
+    <!-- Bootstrap 5.1.3 -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.1.3/css/bootstrap.min.css"
+      integrity="sha512-GQGU0fMMi238uA+a/bdWJfpUGKUkBdgfFdgBm72SUQ6BeyWjoY/ton0tEjH+OSH9iP4Dfh+7HM0I9f5eR0L/4w=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header class="header">
+      <h1>The Odin Project</h1>
+      <h3>Rock, Paper, Scissors Game</h3>
+    </header>
+    <main>
+      <!-- Card Section -->
+      <section class="card-section">
+        <!-- Card 1 -->
+        <div id="card-1" class="card" style="width: 18rem">
+          <img src="pexels-rock.jpeg" class="card-img-top" alt="Rock" />
+          <div class="card-body">
+            <p class="card-text">Click for Rock</p>
+          </div>
+          <!-- Card 1 End -->
+          <!-- Card 2 -->
+        </div>
+        <div id="card-2" class="card" style="width: 18rem">
+          <img src="pexels-paper.jpeg" class="card-img-top" alt="Papper" />
+          <div class="card-body">
+            <p class="card-text">Click for Papper</p>
+          </div>
+          <!-- Card 2 End -->
+          <!-- Card 3 -->
+        </div>
+        <div id="card-3" class="card" style="width: 18rem">
+          <img src="pexels-scissors.jpeg" class="card-img-top" alt="scissors" />
+          <div class="card-body">
+            <p class="card-text">Click for Scissors</p>
+          </div>
+        </div>
+        <!-- Card 3 End -->
+      </section>
+      <!-- Card Section End -->
+      <!-- Section Scores -->
+      <section class="score">
+        <h3>Scores</h3>
+        <div class="contestants">
+          <p class="player">Player:</p>
+          vs
+          <p class="computer">Computer:</p>
+        </div>
+        <div id="winner" class="winner"></div>
+      </section>
+    </main>
+    <footer class="footer">Copyright &copy; 2021 Charlie Mac Web Dev</footer>
+
+    <script src="./script.js"></script>
+  </body>
+</html>
