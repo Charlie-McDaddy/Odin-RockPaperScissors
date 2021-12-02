@@ -59,21 +59,36 @@ h3 {
   color: white;
 }
 
-p.player,
-p.computer {
+div.player,
+div.computer {
   margin: 1rem;
   padding: 1em;
   border: 1px solid black;
   border-radius: 1rem;
 }
 
-p.player {
+div.player {
   background-color: #bdbbb0;
 }
 
-p.computer {
+div.computer {
   background-color: #353535;
   color: #ffffff;
+}
+
+.player-score,
+.computer-score {
+  text-align: center;
+  font-size: 1.2rem;
+}
+
+p {
+  margin: 0;
+}
+
+.current-round {
+  text-align: center;
+  font-size: 1.5rem;
 }
 
 .footer {
